@@ -17,7 +17,7 @@ const AddReview = ({ fetchRestaurant }) => {
     };
 
     try {
-      await fetch(url + id + '/addReview', {
+      await fetch(url.restaurants + id + '/addReview', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
