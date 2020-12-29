@@ -19,6 +19,7 @@ const RestaurantList = () => {
   };
 
   useEffect(() => {
+    // TODO: change to .then promises and put function in useEffect
     fetchRestaurants();
   }, []);
 
